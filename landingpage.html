@@ -1,14 +1,49 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr"  xmlns="http://www.w3.org/1999/xhtml" lang="en" prefix="og: http://ogp.me/ns#" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths browser-chrome ready"
+    style="pointer-events: auto;">
   <head>
+  	<!-- Meta Files-->
+  	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#f4f5f6">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f4f5f6">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="author" content="Shalina Bhargava">
+    <meta name="description" content="SAMVID is the official annual Techno Cultural college festival of Shri Shankaracharya Technical Campus, Bhilai">
+    <meta name="keywords" content="samvid, 2019, 2k19, ssgi, sstc, ssec, ssitm, sscet, shankaracharya, official techno-cultural fest,
+    fest, festival, science, engineering, techno-cultural, bhilai, durg, Shri Shankaracharya Technical Campus, Bhilai,
+    Samvid is the official techno-cultural fest of Shri Shankaracharya Technical Campus, Bhilai, wdct, web, design, creative, team,
+    coding, development, web development, research and development, e cell, entrepreneurship, robotics, robo cell,
+    robowars, hackathon, events, core cell, management, official, best fest of bhilai, samvid nites, largest, central india, largest fest in central India, gaming, electronics, computer science events, mechatronics, proshow, pro-show, rampwalk, fashion, dance" />
+    
+    <!-- og-tags -->
+    <meta property="og:url" content="http://samvid.org.in/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SAMVID 2019 - Machaatey Raho">
+    <meta property="og:description" content="Welcome to the seventh edition of SAMVID - techno-cultural college fest of Shri Shankaracharya Technical Campus, Bhilai">
+    
+    <!--twitter card data-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="http://samvid.org.in/">
+    <meta name="twitter:creator" content="Shalina Bhargava">
+    <meta name="twitter:title" content="SAMVID 2019 - We are better tomorrow">
+    <meta name="twitter:description" content="Welcome to the seventh edition of SAMVID - techno-cultural college fest of Shri Shankaracharya Technical Campus, Bhilai">
+
+    <!-- Stylesheets-->
   	<link rel="tracker" sizes="1x1" href="https://static1.squarespace.com/static/585a4892bebafba69928fcd7/58d854001e5b6cc3c401841b/58d854938419c267b73956cb/1490572452018/b.gif">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>PreLoader</title>
+    
+    <!--Scripts-->
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+  	<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script>
+    
+    <title>SAMVID | Central India's Biggest Techno-Cultural Fest</title>
   </head>
   <body>
-
+  <div id="loading">
   <svg class="rocketManSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"viewBox="0 0 600 600" >
 
     <defs>
@@ -227,9 +262,39 @@
       </g>
     </g> -->
   </svg>
-  
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
-  <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script>
+  </div>
+  <div class="page">
+  	<!--Header-->
+    <header id="header">
+      <!-- particles.js container -->
+      <div id="particles-js"></div>
+    </header>
+
+  </div>
+  <!--Pre-loader JS starts here! -->
+  <script type="text/javascript">
+  	function onReady(callback) {
+  var intervalId = window.setInterval(function() {
+    if (document.getElementsByTagName('body')[0] !== undefined) {
+      window.clearInterval(intervalId);
+      callback.call(this);
+    }
+  }, 2000);
+}
+
+function setVisible(selector, visible) {
+  document.querySelector(selector).style.display = visible ? 'block' : 'none';
+}
+
+onReady(function() {
+  setVisible('.page', true);
+  setVisible('#loading', false);
+});
+  </script>
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+  <!-- stats.js lib --> 
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
