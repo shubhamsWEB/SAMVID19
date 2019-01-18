@@ -12,7 +12,7 @@ html, body, .all
     padding: 0;
 }
 
-body
+.body
 {
     font-family: 'Concert One', cursive;
     font-weight: 300;

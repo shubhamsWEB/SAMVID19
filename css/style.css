@@ -34,15 +34,14 @@ canvas{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fonts 7s infinite;
+    animation: fonts 4s infinite;
 }
-
 @keyframes fonts {
   0% {
-    font-family: helvetica;
+    font-family: 'Lato', sans-serif;;
   }
   10% {
-    font-family: 'Lato', sans-serif;
+    font-family: 'ZCOOL KuaiLe', cursive;
     color: white;
   }
   20% {
@@ -70,7 +69,7 @@ canvas{
     color: white;
   }
   80% {
-    font-family: 'Lora', serif;
+    font-family: 'Noto Serif TC', serif;
     color: white;
   }
   90% {
@@ -78,7 +77,7 @@ canvas{
     color: white;
   }
   99% {
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Satisfy', cursive;
   }
   100% {
   }
@@ -112,7 +111,7 @@ a {
 }
 #typer-size{
   font-family: 'Lato', sans-serif;
-	font-size: 4em;
+	font-size: 3.5em;
   margin-bottom: 2%;
 }
 a:hover,
@@ -143,7 +142,7 @@ header .vert-text {
 header .vert-text h1 {
   padding: 0;
   margin: 0;
-  font-size: 4em;
+  font-size: 2.5em;
   font-weight: 700;
 }
 header .vert-text .scroll-down {
