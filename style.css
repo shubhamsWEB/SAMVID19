@@ -1,0 +1,375 @@
+
+/* apply a natural box layout model to all elements */
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+*:after, *:before { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body, .all
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Concert One', cursive;
+    font-weight: 300;
+    font-size: 16px;
+    color: #454545;
+    background-color: #000;
+    line-height: 1.9;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;  
+}
+
+p
+{
+    margin: 0 0 0.7em 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+a
+{
+    color: #DDDDDD;
+    text-decoration: none;
+    outline: none !important;
+}
+
+a:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    outline: none !important;
+}
+
+
+.all
+{
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.object, .stage *
+{
+    position: absolute; 
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: translate3d(0, 0, 1px);    
+    background-size: 100% 100%;
+}
+        
+.stage
+{
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    overflow: visible;
+}
+
+.scene
+{
+    width: 2000px;
+    height: 5000px;
+    background-color: transparent;
+    opacity: 1;
+    transform-origin: 0 0;
+}
+
+.floor
+{
+    width: 200%;
+    left: -100%;
+    bottom: 25px;
+    border-top: 1px solid #333333;
+}
+
+.axis1, .axis2, .axis3, .axis4, .axis5
+{
+    overflow: visible;
+    width: 0;
+    height: 0;
+}
+
+.axis1
+{
+    transform-origin: 800px 25px;
+}
+
+.axis2
+{
+    transform-origin: -800px 25px;
+}
+
+.axis3
+{
+    transform-origin: 400px 25px;
+}
+
+.axis4
+{
+    transform-origin: 300px 25px;
+}
+
+
+
+.comet
+{
+    width: 80px;
+    height: 50px;
+    background-image: url('http://tweene.com/skin/Default/img/67p.svg');        
+    transform: translate3d(1400px, 650px, 1px) scale(1.8);
+}
+.comet-1
+{
+    width: 110px;
+    height: 70px;
+    background-image: url('http://tweene.com/skin/Default/img/space-planet.svg');        
+    transform: translate3d(2000px, 850px, 1px) scale(2.8);
+}
+
+
+.rosetta
+{
+    width: 30px;
+    height: 50px;
+    background-image: url('http://tweene.com/skin/Default/img/rosetta.svg');        
+}
+
+.philae
+{
+    width: 30px;
+    height: 50px;
+    background-image: url('http://tweene.com/skin/Default/img/philae.svg');        
+}
+
+
+.planet-1
+{
+    width: 160px;
+    height: 90px;
+    background-image: url('http://tweene.com/skin/Default/img/space-planet.svg');                                    
+}
+
+.planet-2, .planet-3, .planet-4, .planet-5, .planet-6, .planet-7, .planet-8, .planet-9, .planet-10, .planet-11, .planet-12, .planet-14, .planet-15
+{
+    width: 9px;
+    height: 9px;
+    background-image: url('http://tweene.com/skin/Default/img/space-ball.svg');                                    
+}
+
+.planet-13
+{
+    width: 200px;
+    height: 120px;
+    background-image: url('http://tweene.com/skin/Default/img/space-planet.svg');                                    
+}
+.planet-1
+{
+    transform: translate3d(380px, 1000px, 1px) scale(2.2);
+}
+
+.planet-2
+{
+    width: 290px;
+    height: 290px;
+    opacity: 0.7;
+    transform: translate3d(1540px, 2380px, 1px) scale(1);
+}
+
+.planet-3
+{
+    opacity: 0.8;
+    transform: translate3d(280px, 3800px, 1px) scale(1.2);
+}
+
+
+.planet-4
+{
+    opacity: 0.7;
+    transform: translate3d(800px, 3800px, 1px) scale(0.8);
+}
+
+.planet-5
+{
+    opacity: 0.6;
+    transform: translate3d(400px, 4450px, 1px) scale(1);
+}
+
+
+.planet-6
+{
+    opacity: 0.8;
+    transform: translate3d(1400px, 3200px, 1px) scale(1);
+}
+
+.planet-7
+{
+    opacity: 0.9;
+    transform: translate3d(1600px, 3400px, 1px) scale(0.8);
+}
+
+.planet-8
+{
+    opacity: 0.8;
+    transform: translate3d(1500px, 2800px, 1px) scale(1.2);
+}
+
+.planet-9
+{
+    opacity: 0.8;
+    transform: translate3d(1300px, 1800px, 1px) scale(1);
+}
+
+.planet-10
+{
+    opacity: 0.8;
+    transform: translate3d(600px, 1400px, 1px) scale(0.9);
+}
+
+.planet-11
+{
+    opacity: 0.8;
+    transform: translate3d(880px, 490px, 1px) scale(1);
+}
+
+.planet-12
+{
+    opacity: 0.8;
+    transform: translate3d(1600px, 800px, 1px) scale(0.9);
+}
+.planet-13 {
+    transform: translate3d(1000px, 2100px, 1px) scale(1.2);
+}
+.planet-14 {
+    opacity: 0.8;
+    transform: translate3d(2600px, 850px, 1px) scale(0.9);
+}
+.planet-15 {
+    opacity: 0.8;
+    transform: translate3d(3000px, 990px, 1px) scale(0.9);
+}
+
+
+.controls
+{
+    position:absolute;
+    width: 400px;
+    right: 20px;
+    top: 10px;
+    text-align: center;
+    z-index: 2000;
+    color: #111111;
+    
+    ul, li
+    {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li
+    {
+        position: relative;
+        display: inline-block;
+        font-size: 36px;
+        margin-right: 10px;
+    }
+    
+    li:last-child
+    {
+        margin-right: 0;
+    }
+    
+    span
+    {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    span:hover 
+    {
+        color: #FFFFFF;
+    }
+
+    .reverse
+    {
+        transform: rotate(180deg);
+    }
+}
+
+.description 
+{
+    position: absolute;
+    width: 400px;
+    right: 20px;
+    top: 70px;
+    text-align: left;
+    z-index: 1000;
+    color: #111111;
+    
+    h1
+    {
+        font-family: 'Roboto Condensed', arial, sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin: 0 0 8px 0;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    p
+    {
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+    
+    .intro
+    {
+        width: 300px;
+        margin: 0 auto 7px auto;
+        font-family: 'Roboto Condensed', arial, sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    ul
+    {
+        width: 300px;
+        margin: 0 auto 7px auto;        
+        font-size: 15px;
+        list-style: circle;
+        padding: 0 0 0 1.5em;
+    }
+    
+    li
+    {
+        cursor: pointer;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    li:hover
+    {
+        color: #FFFFFF;
+    }
+    
+    .current
+    {
+        color: #DDDDDD;
+        font-weight: 400;
+    }
+    
+    
+}
