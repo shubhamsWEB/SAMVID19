@@ -34,11 +34,13 @@
 
     <!-- Stylesheets-->
   	<link rel="tracker" sizes="1x1" href="https://static1.squarespace.com/static/585a4892bebafba69928fcd7/58d854001e5b6cc3c401841b/58d854938419c267b73956cb/1490572452018/b.gif">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     
     <!--Scripts-->
   	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
   	<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     
     <title>SAMVID | Central India's Biggest Techno-Cultural Fest</title>
   </head>
@@ -268,6 +270,17 @@
     <header id="header">
       <!-- particles.js container -->
       <div id="particles-js"></div>
+      <div class="vert-text">
+      <h1 id="typer-size">
+                <!-- TEXTS -->
+                <span id="typed"></span>
+                <div id="typed-strings">
+                	<p>SAMVID</p>
+                    <p>Central India's Biggest Techno-Cultural Fest</p>
+                </div>
+                <!-- TEXTS ENDS -->
+            </h1>
+        </div>
     </header>
 
   </div>
@@ -291,10 +304,11 @@ onReady(function() {
   setVisible('#loading', false);
 });
   </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
   <!-- stats.js lib --> 
   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
