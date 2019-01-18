@@ -29,26 +29,74 @@ canvas{
 	vertical-align: bottom; 
 } 
 
+.macha {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fonts 2s 5s infinite;
+}
+
+@keyframes fonts {
+  0% {
+    font-family: helvetica;
+  }
+  10% {
+    font-family: calibri;
+    color: green;
+  }
+  20% {
+    font-family: fantasy;
+    color: blue;
+  }
+  30% {
+    font-family: monospace;
+    color: purple;
+  }
+  40% {
+    font-family: Palatino;
+    color: pink;
+  }
+  50% {
+    font-family: Tahoma
+      color: red;
+  }
+  60% {
+    font-family: impact;
+    color: orange;
+  }
+  70% {
+    font-family: cursive;
+    color: yellow;
+  }
+  80% {
+    font-family: times;
+    color: green;
+  }
+  90% {
+    font-family: arial;
+    color: blue;
+  }
+  99% {
+    font-family: futura;
+  }
+  100% {
+  }
+
+}
+
+
 /* ---- particles.js container ---- */
 #particles-js{ 
 	position:absolute;
  	width: 100%;
  	height: 100%;
-	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: #0f0c29;  /* fallback for old browsers */
-	background-image: url("samvid.gif");
+	background: linear-gradient(to bottom right, #03001e,#7303c0,#ec38bc)!important;
  	background-repeat: no-repeat;
  	background-size: 20%;
  	background-position: 50% 50%;
 } 
 
-
-body {
-  font-family: 'Comfortaa', cursive;
-	background: linear-gradient(#F15F79 0%, #B24592 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: -webkit-linear-gradient(#F15F79 0%, #B24592 100%);  /* Chrome 10-25, Safari 5.1-6 */
-}
 h1.major,
 h2.major,
 h3.major,
@@ -88,6 +136,7 @@ header .vert-text {
   display: table-cell;
   position: relative;
   text-align: center;
+  vertical-align: center;
 }
 header .vert-text h1 {
   padding: 0;
