@@ -30,11 +30,11 @@ canvas{
 } 
 
 .macha {
-    height: 100vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fonts 2s 5s infinite;
+    animation: fonts 7s infinite;
 }
 
 @keyframes fonts {
@@ -42,43 +42,43 @@ canvas{
     font-family: helvetica;
   }
   10% {
-    font-family: calibri;
-    color: green;
+    font-family: 'Lato', sans-serif;
+    color: white;
   }
   20% {
-    font-family: fantasy;
-    color: blue;
+    font-family: 'Dancing Script', cursive;
+    color: white;
   }
   30% {
-    font-family: monospace;
-    color: purple;
+    font-family: 'Pacifico', cursive;
+    color: white;
   }
   40% {
-    font-family: Palatino;
-    color: pink;
+    font-family: 'Amatic SC', cursive;
+    color: white;
   }
   50% {
-    font-family: Tahoma
-      color: red;
+    font-family: 'Caveat', cursive;
+    color: white;
   }
   60% {
-    font-family: impact;
-    color: orange;
+    font-family: 'Tangerine', cursive;
+    color: white;
   }
   70% {
-    font-family: cursive;
-    color: yellow;
+    font-family: 'Marck Script', cursive;
+    color: white;
   }
   80% {
-    font-family: times;
-    color: green;
+    font-family: 'Lora', serif;
+    color: white;
   }
   90% {
-    font-family: arial;
-    color: blue;
+    font-family: 'VT323', monospace;
+    color: white;
   }
   99% {
-    font-family: futura;
+    font-family: 'Noto Serif TC', serif;
   }
   100% {
   }
@@ -111,7 +111,9 @@ a {
   color: #33A9B7;
 }
 #typer-size{
-	font-size: 40px;
+  font-family: 'Lato', sans-serif;
+	font-size: 4em;
+  margin-bottom: 2%;
 }
 a:hover,
 a:focus {
@@ -136,12 +138,12 @@ header .vert-text {
   display: table-cell;
   position: relative;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
 }
 header .vert-text h1 {
   padding: 0;
   margin: 0;
-  font-size: 4.5em;
+  font-size: 4em;
   font-weight: 700;
 }
 header .vert-text .scroll-down {
@@ -253,14 +255,17 @@ hr.style17:after {
 }
 
 
-
-
-
-s
-
-
-
-
+p-img{
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+#sam{
+  z-index: 100;
+  border-radius: 50%;
+  width: 170px;
+  height:170px;
+}
 
 
 /* ---- stats.js ---- 
