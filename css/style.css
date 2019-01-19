@@ -38,7 +38,7 @@ canvas{
 }
 @keyframes fonts {
   0% {
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Bangers', cursive;
   }
   10% {
     font-family: 'ZCOOL KuaiLe', cursive;
@@ -68,18 +68,11 @@ canvas{
     font-family: 'Marck Script', cursive;
     color: white;
   }
-  80% {
-    font-family: 'Noto Serif TC', serif;
-    color: white;
-  }
-  90% {
-    font-family: 'VT323', monospace;
-    color: white;
-  }
-  99% {
-    font-family: 'Satisfy', cursive;
+  80%{
+    font-family: 'Homemade Apple', cursive;
   }
   100% {
+    font-family: 'Rock Salt', cursive;
   }
 
 }
