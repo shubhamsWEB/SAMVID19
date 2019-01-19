@@ -111,7 +111,7 @@ a {
 }
 #typer-size{
   font-family: 'Lato', sans-serif;
-	font-size: 3.5em;
+	font-size: 2.5em;
   margin-bottom: 2%;
 }
 a:hover,
@@ -266,6 +266,50 @@ p-img{
   height:170px;
 }
 
+#burger{
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  top: 0;
+  color: white;
+  background: linear-gradient(45deg, #9682C8 10%, #05BCC9);;
+  font-size: 32px;
+  padding: 16px 16px 32px 32px;
+  border-radius: 0% 0% 0% 100%;
+  transition: 1s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#quit{
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  color: white;
+  font-size: 32px;
+  padding: 16px;
+  display: none;
+  cursor: pointer;
+}
+
+#links{
+  display: none;
+  z-index: 999;
+  flex-direction: column;
+  width: 100vw;
+  height: 50vh;
+  padding: 25vh 0;
+  justify-content: space-around;
+}
+
+#links a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  font-family: 'Roboto';
+  z-index: 9999;
+}
 
 /* ---- stats.js ---- 
 .count-particles{ 
