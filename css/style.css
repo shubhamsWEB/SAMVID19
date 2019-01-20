@@ -310,7 +310,25 @@ p-img{
   font-family: 'Roboto';
   z-index: 9999;
 }
-
+#sam {
+  -webkit-animation: rotateimg 3s infinite linear;
+}
+@keyframes rotateimg {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+} 
+@-webkit-keyframes rotateimg {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+  }
+} 
 /* ---- stats.js ---- 
 .count-particles{ 
 	background: #000022;
