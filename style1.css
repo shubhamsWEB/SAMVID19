@@ -47,7 +47,7 @@ canvas#stage {
 	margin: auto;
 	padding: 24px 0;
   top: 0; bottom: 0; left: 0; right: 0;
-  margin-top: -120px;
+  margin-top: 400px;
 }
 
 #countdown:before{
@@ -190,4 +190,25 @@ canvas#stage {
 	100% {
 		color: #fff;
 	}
+}
+
+.glitch-img {
+   position: absolute; 
+   width : 38%;  
+   top: 0 ; 
+   left : 0; 
+   background-position:center;  
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   -webkit-background-size:cover;
+   background-size:cover;
+   opacity : 1
+ } 
+
+ @media only screen and (max-width: 992px) and (min-width: 0){
+	
+.glitch-img{
+	margin-left: 200px;
+}
+
 }
