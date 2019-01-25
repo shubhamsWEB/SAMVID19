@@ -171,7 +171,7 @@ a:hover
 {
     width: 200px;
     height: 120px;
-    background-image: url('https://mars-404.templateku.co/img/astronaut.svg');                                    
+    background-image: url('img/astronaut1.svg');                                    
 }
 .planet-1
 {
@@ -183,7 +183,8 @@ a:hover
     width: 290px;
     height: 290px;
     opacity: 0.7;
-    transform: translate3d(1540px, 2380px, 1px) scale(1);
+    background-image: url('img/moon.svg');
+    transform: translate3d(1540px, 2380px, 1px) scale(2.2);
 }
 
 .planet-3
@@ -248,7 +249,7 @@ a:hover
     transform: translate3d(1600px, 800px, 1px) scale(0.9);
 }
 .planet-13 {
-    transform: translate3d(1000px, 2100px, 1px) scale(1.2);
+    transform: translate3d(1000px, 2100px, 1px) scale(1.6);
 }
 .planet-14 {
     opacity: 0.8;
