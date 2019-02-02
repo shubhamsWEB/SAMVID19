@@ -9,9 +9,9 @@ function getSinPath(options) {
     var _options = options || {};
     var _width = _options.width || window.innerWidth;
     var _height = _options.height || window.innerHeight;
-    var _addWidth = _options.addWidth || 100;
-    var _controlSep = _options.controlSep || 50;
-    var _curves = _options.curves || 4;
+    var _addWidth = _options.addWidth || 500;
+    var _controlSep = _options.controlSep || 500;
+    var _curves = _options.curves || 3;
 
     var x = - _addWidth;
     var y = _height / 2;

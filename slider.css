@@ -51,7 +51,7 @@ svg {
 }
 
 .path-slider__path {
-  stroke-width: 10px;
+  stroke-width: 5px;
   stroke: rgba(0, 0, 0, 0.5);
   fill: none;
 }
@@ -80,30 +80,76 @@ svg {
   z-index: 2;
 }
   .item__circle {
-    transform: scale(1);
+    transform: scale(.7);
   }
 
 /*// Defining images*/
 
 .path-slider__item--1 .item__circle {
-  background-image: url("images/img1.jpg");
+  background-image: url("img/33.jpg");
 }
 
 .path-slider__item--2 .item__circle {
-  background-image: url("images/img3.jpg");
+  background-image: url("img/22.jpg");
 }
 
 .path-slider__item--3 .item__circle {
-  background-image: url("images/img5.jpg");
+  background-image: url("img/stunt.jpg");
 }
 
 .path-slider__item--4 .item__circle {
-  background-image: url("images/img1.jpg");
+  background-image: url("img/walk.jpg");
 }
 
 .path-slider__item--5 .item__circle {
-  background-image: url("images/img2.jpg");
+  background-image: url("img/jub.jpg");
 }
 .path-slider__item--6 .item__circle {
-  background-image: url("images/img3.jpg");
+  background-image: url("img/stunt1.jpg");
+}
+.path-slider__item--7 .item__circle {
+  background-image: url("img/band.png");
+}
+.path-slider__item--8 .item__circle {
+  background-image: url("img/antariksh.jpg");
+}
+.path-slider__item--9 .item__circle {
+  background-image: url("img/dan.jpg");
+}
+.path-slider__item--10 .item__circle {
+  background-image: url("img/wob.jpg");
+}
+.path-slider__item--11 .item__circle {
+  background-image: url("img/flames3.jpg");
+}
+
+.path-slider__item--12 .item__circle {
+  background-image: url("img/hack1.jpg");
+}
+
+.path-slider__item--13 .item__circle {
+  background-image: url("img/singing1.jpg");
+}
+
+.path-slider__item--14 .item__circle {
+  background-image: url("img/mallya.jpg");
+}
+
+.path-slider__item--15 .item__circle {
+  background-image: url("img/jub2.jpg");
+}
+.path-slider__item--16 .item__circle {
+  background-image: url("img/kan.jpg");
+}
+.path-slider__item--17 .item__circle {
+  background-image: url("img/band.png");
+}
+.path-slider__item--18 .item__circle {
+  background-image: url("img/lights.jpg");
+}
+.path-slider__item--19 .item__circle {
+  background-image: url("img/fol.jpg");
+}
+.path-slider__item--20 .item__circle {
+  background-image: url("img/as2.jpg");
 }
