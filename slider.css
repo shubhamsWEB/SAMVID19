@@ -155,3 +155,9 @@ svg {
 .path-slider__item--20 .item__circle {
   background-image: url("img/as2.jpg");
 }
+.path-slider__item--21 .item__circle {
+  background-image: url("img/roma.jpeg");
+}
+.path-slider__item--22 .item__circle {
+  background-image: url("img/slippery.jpg");
+}
