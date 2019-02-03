@@ -1972,7 +1972,38 @@ body {
 .icon-box-3 .entry-header::before {
     content: "03.";
 }
-
-
-
-
+.stats { 
+    transition: .1s ease-in;
+ }
+.stats:hover {
+ box-shadow: 3px 3px 3px 3px #CDCDCD;
+}
+.aftermovie {
+    width: 1160px;
+    height: 450px;
+}
+.fab {
+    transition: .2s ease-in;
+}
+.fab:hover  {
+    font-size: 2.5em;
+}
+.aftermovie-header {
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 600;
+    color: #040608;
+}
+.aftermovie-video {
+    width: 100%;
+    height: 50%;
+}
+@media screen and (max-width: 500px) {
+    .aftermovie-video {
+        width: 500px;
+        height: 300px;
+    }
