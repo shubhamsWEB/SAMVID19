@@ -5,7 +5,7 @@
     display: flex;
 }
 body::-webkit-scrollbar {
-    width: 1.2em;
+    width: .8em;
 }
  
 body::-webkit-scrollbar-track {
@@ -260,7 +260,7 @@ body {
     padding-bottom: 50px;
     margin: 0;
     font-family: mountains;
-    font-size:60px;
+    font-size: 60px;
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -271,7 +271,7 @@ body {
     width: 100%;
     top: 20px;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     color: hsl(0, 0%, 90%);
     text-align: center;
@@ -279,7 +279,7 @@ body {
 
 @media screen and (min-width: 992px) {
     .hero-content .entry-header h2 {
-        font-size: 172px;
+        font-size: 150px;
         padding: 50px;
     }
 
@@ -344,7 +344,7 @@ body {
 # The Lineup Artists - Headliners
 ------------------------------------------------------------*/
 .content-section {
-    min-height: 4640px;
+    min-height: 3500px;
     width: 100%;
     padding-bottom: 120px;
     background: url("images/middle-cover.jpg") no-repeat;
@@ -732,7 +732,8 @@ body {
 # home-page-last-news
 ------------------------------------------------------------*/
 .home-page-last-news {
-    margin-top: 220px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .home-page-last-news .entry-title p {
@@ -755,7 +756,7 @@ body {
 ## home-page-last-news-wrap
 ------------------------------------------------------------*/
 .home-page-last-news-wrap {
-    margin-top: 110px;
+    margin-top: 20px;
 }
 
 .home-page-last-news-wrap .box-link-date {
@@ -1963,10 +1964,6 @@ body {
     content: "03.";
 }
 
-
-/*------------------------------------------------------------
-# gallery-page
-------------------------------------------------------------*/
 
 
 
