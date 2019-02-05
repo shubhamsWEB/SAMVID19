@@ -338,12 +338,12 @@ body {
 /*------------------------------------------------------------
 ## hero-content entry-footer
 ------------------------------------------------------------*/
-.hero-content .entry-footer {
+.entry-footer {
     margin-top: 125px;
     text-align: center;
 }
 
-.hero-content .entry-footer .btn {
+.entry-footer .btn {
     background: hsl(0, 0%, 100%);
     padding: 10px 30px;
     border-radius: 0;
@@ -352,7 +352,7 @@ body {
     font-weight: 600;
 }
 
-.hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
+.entry-footer a:hover, .entry-footer .current {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     color: white;
 }
@@ -2014,4 +2014,23 @@ body {
 iframe#gform_canvas {
     width: 100%;
     height: 2200px;
+}
+li.tab-nav.justify-content-center.align-items-center.active {
+    display: inline-block;
+}
+
+li.tab-nav.justify-content-center.align-items-center {
+    display: inline-block;
+}
+
+ul.tabs-nav {
+    display: inline-block;
+}
+h2.entry-header {
+    font-family: mountains;
+    font-size: 3rem!Important;
+    padding-top: 2%;
+}
+.tabs-container .tab-content p{
+    color: #000000;
 }
