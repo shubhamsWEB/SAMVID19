@@ -277,6 +277,10 @@ body {
     text-align: center;
 }
 
+.events-right{
+    height: 40rem;
+    overflow-y: scroll;"
+}
 @media screen and (min-width: 992px) {
     .hero-content .entry-header h2 {
         font-size: 150px;
