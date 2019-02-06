@@ -276,6 +276,16 @@ body {
     color: hsl(0, 0%, 90%);
     text-align: center;
 }
+.btn-reg{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    background:-webkit-linear-gradient(#00d0ff, #25ffbf);
+    color: #fff;
+    font-weight: bolder; 
+    font-size: 16px;
+    padding: 10px 30px;
+}
 
 .events-right{
     height: 40rem;
@@ -1853,7 +1863,7 @@ body {
 }
 
 .tabs-container .tab-content .entry-header {
-    margin-top: 0;
+    margin-top: 2%;
     font-size: 24px;
     font-weight: 500;
     color: #040608;
@@ -1872,7 +1882,7 @@ body {
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-title {
-    width: 445px;
+    width: 100%;
     margin-bottom: 20px;
     padding: 20px;
     font-size: 16px;
@@ -1890,6 +1900,7 @@ body {
 
 .accordion-and-tabs-wrap .accordion-wrap .active {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    color: white;
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-content {
