@@ -279,7 +279,7 @@ body {
 
 .events-right{
     height: 40rem;
-    overflow-y: scroll;"
+    overflow-y: scroll;
 }
 @media screen and (min-width: 992px) {
     .hero-content .entry-header h2 {
@@ -300,6 +300,9 @@ body {
     .site-branding{
         display: none!important;
     }
+    .events-right{
+    height:100%;
+}
 }
 
 .entry-footer>a.btn.current {
