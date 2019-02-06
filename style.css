@@ -1630,7 +1630,8 @@ body {
 }
 
 .contact-page .contact-details {
-    margin-top: 70px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .contact-page .contact-details .contact-medium {
@@ -1640,11 +1641,6 @@ body {
 .contact-page .contact-details .contact-medium .contact-icon {
     padding: 0;
     margin-right: 20px;
-}
-
-.contact-page .contact-details .contact-medium .contact-icon img {
-    max-width: 100%;
-    height: auto;
 }
 
 .contact-page .contact-details .contact-medium .entry-title {
