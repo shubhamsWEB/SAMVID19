@@ -307,12 +307,16 @@ body {
         top: 8px;
         font-size: 20px;
     }
-    .site-branding{
-        display: none!important;
+    .site-branding img{
+        width: 50px!important;
     }
     .events-right{
     height:100%;
 }
+}
+
+.site-branding img{
+    width: 100px;
 }
 
 .entry-footer>a.btn.current {
@@ -1052,6 +1056,10 @@ body {
 
 .main-content {
     margin: 120px 0;
+}
+
+.activities-main-content {
+    margin: 0 0 120px 0;
 }
 
 .main-content .entry-header .entry-title p {
