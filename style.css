@@ -2117,7 +2117,7 @@ h2.entry-header {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #00325a;
+    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -2128,7 +2128,7 @@ h2.entry-header {
 }
 .our-team:hover .pic:before{
  height: 100%;
-    background: green; 
+     
  }
 .our-team .pic:after {
     content: "";
