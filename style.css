@@ -2201,3 +2201,6 @@ h2.entry-header {
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
 }
+.round-image {
+    border-radius: 50%;
+}
