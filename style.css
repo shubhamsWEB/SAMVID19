@@ -286,7 +286,13 @@ body {
     font-size: 16px;
     padding: 10px 30px;
 }
-
+.btn-event {
+    background:-webkit-linear-gradient(#00d0ff, #25ffbf);
+    color: #fff;
+    font-weight: bolder; 
+    font-size: 16px;
+    padding: 10px 30px;
+}
 .events-right{
     height: 40rem;
     overflow-y: scroll;
