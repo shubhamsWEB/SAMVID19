@@ -2073,13 +2073,6 @@ h2.entry-header {
 }
 
 
-
-
-
-
-
-
-
 .our-team-section {
     position: relative;
     padding-top: 40px;
@@ -2103,11 +2096,11 @@ h2.entry-header {
     text-align: center;
     overflow: hidden;
     position: relative;
-    border-bottom: 5px solid #00325a;
+    border-bottom: 5px solid #fff;
     margin-bottom: 10px;
 }
 .our-team:hover{
-    border-bottom: 5px solid #2f2f2f;
+    border-bottom: 5px solid #fff;
 }
 
 .our-team .pic{
@@ -2148,9 +2141,7 @@ h2.entry-header {
     z-index: 1;
     transition: all 0.3s linear 0s;
 }
-.our-team:hover .pic:after{
-    background: #7ab92d;
-}
+
 .our-team .pic img {
     width: 100%;
     height: auto;
@@ -2185,7 +2176,7 @@ h2.entry-header {
     width: 100%;
     padding: 0;
     margin: 0;
-    background: green;
+    background: -webkit-linear-gradient(#00d0ff, #25ffbf);;
     position: absolute;
     bottom: -100px;
     left: 0;
